@@ -1,7 +1,5 @@
 #100 Web Apps
 
-|Project|Difficulty|
-|1. Counter App|Simple|
-| | Web App | Technologies |
-|----------|:-------------:|------:|
-| 1 | Counter App | Nextjs,CSS |
+|     |   Web App   | Technologies |                                  Technologies |
+| --- | :---------: | -----------: | --------------------------------------------: |
+| 1   | Counter App |   Nextjs,CSS | Click buttons to increase/decrease the number |
