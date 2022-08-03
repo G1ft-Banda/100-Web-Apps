@@ -43,12 +43,6 @@ export default function Counter() {
           </button>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a href="https://next.new" target="_blank" rel="noopener noreferrer">
-          Created by&nbsp;<b>Gift Banda</b>&nbsp;⚡️
-        </a>
-      </footer>
     </div>
   );
 }

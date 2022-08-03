@@ -1,3 +1,3 @@
-# nextjs-z9gnue
+#100 Web Apps
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/nextjs-z9gnue)
+1. Counter App
