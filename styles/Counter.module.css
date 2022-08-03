@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: lightblue;
 }
 
 .footer {
@@ -22,21 +23,30 @@
   place-content: center;
   margin-top: auto;
   height: 100%;
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
-.btnContainer {
-  display: flex;
+.btns_container {
+  padding: 10px;
   width: 100%;
+  display: flex;
   justify-content: space-between;
-  background-color: darkorange;
 }
 
 .btn {
-  color: black;
-  font-size: 19px;
+  background-color: transparent;
+  font-size: 18px;
   font-weight: bold;
-  padding: 10px 3px;
-  margin: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px 12px;
+  padding: 4px 12px;
+}
+
+.btn:nth-child(1):hover {
+  background-color: red;
+}
+.btn:nth-child(2):hover {
+  background-color: lightgreen;
 }

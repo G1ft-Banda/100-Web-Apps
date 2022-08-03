@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -7,15 +8,15 @@ export default function Home() {
       <Head>
         <title>100 Web Apps</title>
       </Head>
-
+      <header>
+        <h1>100 Web Apps</h1>
+      </header>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <span className="emphasis">100 Web App</span>
-        </h1>
-
-        <p className={styles.description}>
-          This is a directory of Web App I built for the fun of it.
-        </p>
+        <ol>
+          <li>
+            <Link href="/counter">Counter App</Link>
+          </li>
+        </ol>
       </main>
 
       <footer className={styles.footer}>

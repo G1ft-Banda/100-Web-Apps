@@ -29,16 +29,16 @@ export default function Counter() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Counter</title>
+        <title>Counter App</title>
       </Head>
 
       <main className={styles.main}>
         <h1 style={{ color: `${numColor}` }}>{Number}</h1>
-        <div className="btnContainer">
-          <button className="btn" onClick={Decrease}>
+        <div className={styles.btns_container}>
+          <button className={styles.btn} onClick={Decrease}>
             DECREASE
           </button>
-          <button className="btn" onClick={Increase}>
+          <button className={styles.btn} onClick={Increase}>
             INCREASE
           </button>
         </div>
