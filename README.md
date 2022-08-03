@@ -1,3 +1,4 @@
 #100 Web Apps
 
-1. Counter App
+|Project|Difficulty|
+|1. Counter App|Simple|
